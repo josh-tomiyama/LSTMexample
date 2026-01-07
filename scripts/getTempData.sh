@@ -1,0 +1,1 @@
+curl 'https://mesonet.agron.iastate.edu/cgi-bin/request/daily.py?network=IA_ASOS&stations=DSM&year1=1990&month1=1&day1=1&year2=2026&month2=1&day2=1&var=climo_high_f&var=climo_low_f&na=blank&format=csv' -o ../data/iowa_temp.csv
